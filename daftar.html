@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar | Ajis Firdaus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="form-page">
+    <a class="back-link" href="index.html">← Kembali ke halaman awal</a>
+    <section class="form-card">
+      <div class="form-icon">✦</div>
+      <p class="eyebrow">BUAT AKUN BARU</p>
+      <h1>Halaman <span>Daftar</span></h1>
+      <p class="form-desc">Lengkapi data berikut untuk membuat akun.</p>
+      <form action="login.html" method="get">
+        <label for="nama">Nama lengkap</label>
+        <input id="nama" name="nama" type="text" placeholder="Masukkan nama lengkap" value="Ajis Firdaus" required>
+        <label for="nim">NIM</label>
+        <input id="nim" name="nim" type="text" inputmode="numeric" value="2557401002" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+        <label for="password">Buat password</label>
+        <input id="password" name="password" type="password" placeholder="Minimal 8 karakter" minlength="8" required>
+        <button class="btn btn-primary btn-full" type="submit">Daftar sekarang <span>→</span></button>
+      </form>
+      <p class="switch-text">Sudah punya akun? <a href="login.html">Login di sini</a></p>
+    </section>
+    <footer>© 2026 Ajis Firdaus <span>•</span> UTS Analisis dan Desain Web</footer>
+  </main>
+</body>
+</html>
